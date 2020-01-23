@@ -1,5 +1,5 @@
 #!/bin/bash
 timedatectl set-timezone Europe/Budapest
 yum update -y
-yum install mc htop wget
+yum install -y mc htop wget
 echo 'color muphy' >> ~/.vimrc
